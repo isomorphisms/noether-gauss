@@ -1,6 +1,7 @@
 # tier	file name	direct PDF URL	edition type
 # core: initial reading corpus including complete Gauss editions and the original 1691 Leibniz volume.
 # all: supplementary volumes; expect several hundred MB total.
+core	Leibniz-1691-Letters-Bodenhausen-and-Catenary-analysis-Akademie-Edition-2003.pdf	https://rep.adw-goe.de/bitstream/handle/11858/2441/III5A.pdf	critical-edition
 core	Leibniz-1691-Acta-Eruditorum-original-volume.pdf	https://archive.org/download/s1id13206570/s1id13206570.pdf	original-facsimile
 core	Cotes-1714-Logometria-original.pdf	https://archive.org/download/paper-doi-10_1098_rstl_1714_0002/paper-doi-10_1098_rstl_1714_0002.pdf	original-facsimile
 core	Gauss-1799-Demonstratio-nova-original.pdf	https://edoc.hu-berlin.de/bitstreams/3d7abac7-f14d-478c-b649-57ff28799668/download	original-facsimile
