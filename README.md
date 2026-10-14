@@ -6,7 +6,8 @@ A reading and reconstruction project on the mathematics and history surrounding 
 
 - **[How Gauss Determined the Orbit of Ceres](https://archive.schillerinstitute.com/fid_97-01/982_Gauss_Ceres.html)** — Jonathan Tennenbaum **and Bruce Director**, *Fidelio*, Summer 1998. The publisher's page links the full PDF and individual chapters.
 - **[Riemann for Anti-Dummies — Bruce Director](sources/riemann-for-anti-dummies.md)** — series archive, selected individual installments, and a Gauss/Riemann reading trail.
-- **[Newton and discrepant measurements — Jed Buchwald](sources/newton-discrepant-measurements.md)** — evidence for Newton's unusual averaging of conflicting observations, with an explicit distinction from Gauss's later error theory and a primary-manuscript verification plan.
+- **[Newton and discrepant measurements — Jed Buchwald](sources/newton-discrepant-measurements.md)** — historical source trail, the account-derived lecture, and Newton's own description of taking means.
+- **[Worked Newton ring series](sources/newton-rings-1671-reconstruction.md)** — historical numerical input, exact arithmetic, a modern least-squares comparison, and 12 reproducible checks. The numerical transcription is not yet audited against the autograph.
 
 ## Account-derived reading
 
