@@ -1,12 +1,13 @@
 # Source audit 01 — Riemann, Director, and Dirichlet's principle
 
-**Status (2026-10-13):** first passage-level comparison completed from the full German Riemann text and Director's published article. Original 1857 facsimile is linked in [PRIMARY.md](PRIMARY.md), but the detailed check below uses D. R. Wilkins's **complete German transcription** of the 1857 paper (2000 corrected edition), **not** an original page-image edition. The original *Journal für die reine und angewandte Mathematik* 54 (1857) pagination is 101–155. The Wilkins transcription numbers the paper 1–55.
+**Status (2026-10-13):** first passage-level comparison completed from the full German Riemann text and Director's published article. The mathematical expressions were checked using D. R. Wilkins's **complete German transcription** (2000 corrected edition); **additionally**, the *1857 original separate edition's machine-extracted first-printing text* was located and compared at §§1 and 3. This is **not yet a line-by-line visual comparison with the 1857 page images**. The *Journal für die reine und angewandte Mathematik* 54 (1857) pagination is 101–155. Both the first separate edition and Wilkins number its text 1–55, hence original journal p. 112 = separate-edition p. 12.
 
 ## A. Exact texts used
 
 **Riemann:** Bernhard Riemann, *Theorie der Abel'schen Functionen*, *Journal für die reine und angewandte Mathematik* **54** (1857), pp. 101–155.
 - [German paper, complete transcription by D. R. Wilkins](https://www.emis.de/classics/Riemann/AbelFn.pdf).
 - [Contemporary separate-edition facsimile, ETH e-rara](https://www.e-rara.ch/zut/content/titleinfo/13599822).
+- [**Machine-extracted full German text from ETH's original 1857 printing**](https://www.e-rara.ch/zut/download/ftpack/plain/13599822) — OCR, so use Wilkins and original page images to check formulas and transcription errors. This is a text extraction of the **first printing itself**, not a modern restatement.
 - Working references below give the **1857 journal page**, then Wilkins's own page in parentheses.
 
 **Director:** Bruce Director, [“Bernhard Riemann's ‘Dirichlet's Principle’”](https://archive.schillerinstitute.com/fid_02-06/2004/044_riemann_dirichlet.html), *Fidelio* XIII/4, Winter 2004 (publisher page header; it also contains the internally inconsistent sentence “reprinted from the Winter 2000 FIDELIO”). **Use Winter 2004 tentatively until the print issue is examined.** Direct source citations are to paragraph locations/headings, since the HTML has no printed pagination.
@@ -16,6 +17,17 @@
 **Schwarz:** Hermann Amandus Schwarz, *Zur Integration der partiellen Differentialgleichung d²u/dx² + d²u/dy² = 0 unter vorgeschriebenen Grenz- und Unstetigkeitsbedingungen*, Berlin Academy proceedings (1870), pp. 767–795. [Original printed pamphlet facsimile](https://www.e-rara.ch/zut/content/titleinfo/29398928), [DOI 10.3931/e-rara-119446](https://doi.org/10.3931/e-rara-119446). Distinct from Weierstrass's criticism: this gives a **constructive alternative** for existence in cases where the original argument is not justified.
 
 **Modern historical check:** [MacTutor, Riemann biography](https://mathshistory.st-andrews.ac.uk/Biographies/Riemann/) and [From Attraction Theory to Existence Proofs: The Evolution of Potential-Theoretic Methods in the Study of Boundary-Value Problems, 1860–1890](https://www.numdam.org/item/RHM_1996__2_1_67_0/).
+
+## Direct cross-check against the first printing's OCR
+
+The **1857 first printing**, extracted by ETH, gives these original German phrases:
+
+- §1, separate-edition p. 1 (journal p. 101): Riemann introduces investigations of `Transcendenten`, “insbesondere” Abelian functions, then complex `z=x+yi` and function continuation.
+- §1, separate-edition p. 2 (journal p. 102): for `log(z−a)`, an analytic continuation across a cut differs by `2πi` in his stated positive-side orientation, and is explicitly called a distinct **branch** (`Zweig`).
+- §3, separate-edition p. 11 (journal p. 111): the precise heading is `Bestimmung einer Function einer veränderlichen complexen Grösse durch Grenz- und Unstetigkeitsbedingungen`; he states that sufficient **independent determination conditions** must be specified.
+- **§3, separate-edition p. 12 (journal p. 112):** immediately after explaining that the integral cannot be negative, the **original printed text's OCR** includes the decisive inference “und es mufs daher wenigstens einmal ... ein Minimumwerth eintreten”. Working translation: **“and therefore a minimum value must occur at least once.”** The preceding premise (a finite, nonnegative functional) does not imply this existential conclusion.
+
+The OCR's mathematical symbols, inequalities, and integral syntax contain visible recognition errors and were **not** taken as ground truth for the variational formula printed below. The 2000 Wilkins transcription was used for the formula.
 
 ## B. What Riemann actually says
 
@@ -110,4 +122,4 @@ for e, value in zip((1, 0.1, 0.01, 0.001), values):
 - For the philosophical question of **action integrals vs pairwise pointwise relationships**, distinguish an integral/functional `J[u]`, a local differential equation for its stationary points, and the global existence/uniqueness of a minimizer. Neither one alone implies the other.
 - Test Director's other central claims from first editions before moving to historical intent: whether Gauss's 1799 dissertation uses harmonic potential in the manner ascribed, and whether the asserted Leibniz–Gauss influence chain is documented rather than inferred.
 
-**Audit boundaries:** this document directly checks Riemann's German §1/§3 and Director's full HTML text, and uses a separately verified algebraic counterexample. It **does not yet** certify the wording from a 1857 original page image or a complete text-to-text audit of the entire Director series.
+**Audit boundaries:** this document checks Riemann's full German §1/§3 against both Wilkins's complete reset text and machine-extracted text from an 1857 **first-printing scan**. The existence claim's wording agrees across those readings. It **does not yet** certify formulas against original 1857 page images or constitute an audit of the entire Director series.
