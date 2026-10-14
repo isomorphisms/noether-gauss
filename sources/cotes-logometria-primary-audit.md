@@ -44,7 +44,7 @@ This does **not**, on its own, establish the historical claim that all later geo
 
 ### pp. 31–32 (scan pages 27–28) — **Cotes's complex-logarithmic angle relationship**, located in the actual 1714 printing
 
-**Correction to the initial audit:** reading on past printed p. 29 gives a direct textual result on p. **32**. After the section on hyperbolas and ellipsoids of revolution (p. 31), Cotes describes an ellipsoid, a circle of radius `CE`, its arc, the sine `CX` and complement's sine `XE`. On **printed p. 32**, he writes (abbreviated only by removing line breaks; original typeface uses a square root of negative unity):
+**Correction to the initial audit:** reading beyond printed p. 29 gives a direct textual result on p. **32**. After the section on hyperbolas and ellipsoids of revolution (p. 31), Cotes describes an ellipsoid, a circle of radius `CE`, its arc, the sine `CX` and complement's sine `XE`. On **printed p. 32**, he writes (abbreviated only by removing line breaks; original typeface uses a square root of negative unity):
 
 > *Nam si quadrantis circuli quilibet arcus, radio CE descriptus, sinum habeat CX sinumque complementi ad quadrantem XE: sumendo radium CE pro Modulo, arcus erit rationis inter EX + XC √−1 & CE mensura ducta in √−1.*
 
