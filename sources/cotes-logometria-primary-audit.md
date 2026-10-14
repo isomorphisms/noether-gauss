@@ -1,6 +1,6 @@
 # Cotes, *Logometria* (1714): original-page audit 01
 
-**Status, 2026-10-13:** selected pages examined **in the original 41-page scanned paper**, not merely inferred from a modern biography. A complete line-by-line Latin transcription, checked modern English translation, and examination of Cotes's *Harmonia mensurarum* (1722) remain unfinished.
+**Status, 2026-10-13:** selected pages examined **in the original 41-page scanned paper**, not merely inferred from a modern biography. **Important correction after continuing through printed pp. 31–32:** Cotes *already states a relation involving the logarithmic measure of a complex ratio and a circular arc in the original 1714 paper*. A complete Latin transcription, checked translation, and direct side-by-side comparison with the 1722 *Harmonia mensurarum* remain unfinished.
 
 ## Publication and original images
 
@@ -10,7 +10,7 @@ Roger Cotes, *Logometria*, *Philosophical Transactions* **29** (1714–1716), pp
 - [Royal Society original-paper DOI](https://doi.org/10.1098/rstl.1714.0002).
 - [*Harmonia mensurarum*, 1722 original book scan](https://www.e-rara.ch/zut/content/titleinfo/1255698) — **different work, different pagination**, published posthumously, edited by Robert Smith.
 
-**Pagination:** the first PDF image of the *Logometria* scan is **printed page 5**, so image index 1 is printed page 6, image index 22 is printed page 27, and image index 24 is printed page 29. Do not cite PDF page 27 when referring to *Logometria* printed p. 27.
+**Pagination:** the first PDF image of the *Logometria* scan is **printed page 5**, so image index 1 is printed page 6, image index 22 is printed page 27, image index 24 is printed page 29, **and image index 27 is printed page 32**. Do not cite PDF page 27 when referring to *Logometria* printed p. 27.
 
 ## Passages read in Cotes's actual print
 
@@ -34,7 +34,7 @@ Literal working translation: **“Logarithms are numerical measures of ratios.�
 
 The page has **two original engravings**. The upper construction discusses a circle/arc, radii and normals; the text contains `Lineam illam Logisticam` and relations between an arc and measured ratio. The lower figure shows a **logistic curve** with its asymptote and several labeled lengths. These are tangible geometric constructions, not generic “transcendence.”
 
-The exact equivalence of his labeled geometric segments and a modern complex logarithm has **not** been established from this page alone.
+A **distinct explicit complex/angle/logarithm passage appears on printed p. 32**; it must not be confused with the p. 27 drawing.
 
 ### p. 29 (scan page 25) — hyperbola quadrature
 
@@ -42,27 +42,40 @@ Next to a construction with labeled geometric lines and an inset circle, Cotes e
 
 This does **not**, on its own, establish the historical claim that all later geometric complex-number relationships were already written in the same form by Cotes.
 
-## An important pagination/source trap
+### pp. 31–32 (scan pages 27–28) — **Cotes's complex-logarithmic angle relationship**, located in the actual 1714 printing
 
-Some later biographies refer to the **first part, pp. 27–28, of the posthumously published *Harmonia mensurarum* (1722)** when discussing Cotes's angular logarithm relation. But printed pp. 27–28 of the scanned **1714 *Logometria*** are the figure and logistic curve discussion described above. These are **not interchangeable page references**. Confirm which book, section, and physical page a quotation actually describes.
+**Correction to the initial audit:** reading on past printed p. 29 gives a direct textual result on p. **32**. After the section on hyperbolas and ellipsoids of revolution (p. 31), Cotes describes an ellipsoid, a circle of radius `CE`, its arc, the sine `CX` and complement's sine `XE`. On **printed p. 32**, he writes (abbreviated only by removing line breaks; original typeface uses a square root of negative unity):
 
-The modern relationship
+> *Nam si quadrantis circuli quilibet arcus, radio CE descriptus, sinum habeat CX sinumque complementi ad quadrantem XE: sumendo radium CE pro Modulo, arcus erit rationis inter EX + XC √−1 & CE mensura ducta in √−1.*
+
+**Working literal translation:** “If any arc of a quadrant of a circle described with radius CE has sine CX and the sine of its complement to a quadrant XE, taking radius CE as the modulus, the arc will be the measure of the ratio between EX + XC √−1 and CE, multiplied by √−1.” **Check the sign and orientation** of the circle, square root of −1 and logarithmic measure before rewriting this as a modern complex logarithm equation. This is **not** merely a later commentator projecting imaginary numbers onto Cotes.
+
+This printed passage is related to the modern multivalued identity
 
 ```math
-exp(iθ) = cos θ + i sin θ,
-log(cos θ + i sin θ) = iθ + 2π i k,   k ∈ ℤ
+log(cos θ + i sin θ) = iθ + 2πi k,       k ∈ ℤ.
 ```
 
-is a mathematical reinterpretation (the complex logarithm is multivalued), **not** a verbatim quotation from the 1714 Latin printing. Cotes preceded Euler, but precisely which formulation he derived and where must be verified from the original *Harmonia mensurarum* images. A secondary slogan like “Cotes discovered Euler's formula” is not evidence of its printed form.
+The identity as written here uses modern notation, complex logarithm branches and a specified counterclockwise angle orientation; those choices must be mapped onto Cotes's own construction. Cotes's text explicitly contains the ratio with `√−1`, the modulus and the arc. He did **not** publish Euler's later notation `exp(iθ)`.
+
+**Crucial bibliographic resolution:** Cotes's 1714 *Philosophical Transactions* paper begins at **journal p. 5**. It was reprinted as **Part I, “Logometria,” pp. 1 onward** in Smith's posthumous **1722 *Harmonia mensurarum***. Thus the passage at **1714 pp. 31–32** corresponds by a **four-page shift** to **1722 Part I pp. 27–28** (pending side-by-side page comparison for possible editorial differences). This explains the apparently conflicting citations in historical biographies. What was wrong was to equate **1714 pp. 27–28** to **1722 pp. 27–28**, not to look for Cotes's formula anywhere in 1714.
+
+**Independent historical cross-check:** [MacTutor / *Dictionary of Scientific Biography*, “Cotes, Roger,” PDF](https://mathshistory.st-andrews.ac.uk/DSB/Cotes.pdf) describes the ellipsoid-of-revolution derivation and attributes the equation in modern notation to *Harmonia mensurarum* Part I pp. 27–28. [1722 original edition, e-rara](https://www.e-rara.ch/zut/content/titleinfo/1255698) and its [full-book, machine-extracted Latin text](https://www.e-rara.ch/zut/download/ftpack/plain/1255698) confirm Smith says in his editor's preface that Part I *Logometria* had already appeared in the Royal Society's transactions.
+
+## An important pagination/source trap
+
+The original paper starts at journal **p. 5**; its 1722 reprint as Part I of *Harmonia mensurarum* starts at **p. 1**. Therefore **1714 p. 32** corresponds to **1722 Part I p. 28** for the complex-arc/logarithm passage. This is the source of the mismatch, **not** evidence that the relation was first introduced in 1722. Be sure to cite which printing was used.
+
+It is still a mistake to equate the historical claim **“Cotes relates the circular arc to imaginary logarithms”** with the stronger claim that **Cotes published Euler's later exponential formula in Euler's notation**. The original 1714 text uses ratios, their logarithmic measures, radius/modulus, sine, and the square root of negative unity. The modern complex-log equality is a translation, with branch and orientation assumptions.
 
 ## Tasks needed to complete this audit
 
-1. Transcribe and translate printed pp. **5–8, 25–30, 43–45** of *Logometria* directly from the scan, maintaining Greek/Latin letters and printed diagram labels.
-2. Retrieve the **actual first-edition 1722 *Harmonia mensurarum***, establish its separate pagination, and locate the complex-logarithm/angle passage. Distinguish original notes by Cotes from Robert Smith's posthumous editorial material.
+1. Transcribe and translate printed pp. **5–8, 25–34, 43–45** of *Logometria* directly from the scan, maintaining Greek/Latin letters and printed diagram labels.
+2. Compare the **actual first-edition 1722 *Harmonia mensurarum*** Part I p. 28 directly with the 1714 *Philosophical Transactions* p. 32 and log any differences. A first-edition scan and full OCR transcription are linked above, but the two pages have not yet been visually collated. Distinguish original notes by Cotes from Robert Smith's posthumous editorial material.
 3. Reconstruct both drawings on printed p. 27 by the **same geometric construction** from the labels Cotes uses; derive scalar lengths mathematically rather than freehand matching.
 4. Audit citations to Cotes in Bruce Director's *Riemann for Anti-Dummies* Part 33 and LaRouche Youth League materials: quote **what those articles explicitly cite** before claiming they cite a particular Cotes page.
 5. Compare Cotes's use of *modulus* with Leibniz's **hidden exponential normalization** in the 1691 catenary letters, without inventing a direct historical transmission not documented by correspondence.
 
 ## What is now established
 
-From Cotes's original **1714 printed pages**: logarithms measure ratios (p. 6), the logistic curve is geometrically related to an arc and ratio measures (p. 27), and the discussion explicitly takes up quadrature of the hyperbola (p. 29). The conjectured larger lineage from Leibniz to Cotes to Riemann remains a **research question**, not a verified direct chain of influence.
+From Cotes's original **1714 printed pages**: logarithms measure ratios (p. 6); the logistic curve is related to arcs and ratio measures (p. 27); the hyperbola is quadrature-treated (p. 29); and **Cotes explicitly relates a circular arc to the measure of a ratio containing √−1 (p. 32)**. The pp. 31–32 vs posthumous pp. 27–28 confusion is explained by the two printings' different starting pages. The larger direct lineage from Leibniz to Cotes to Riemann remains a **research question**, not a verified chain of citations/influence.
