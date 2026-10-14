@@ -12,3 +12,12 @@ A reading and reconstruction project on the mathematics and history surrounding 
 - Keep author, title, date (when established), URL, and the distinction between a contemporaneous source, a later interpretation, and our own reconstruction.
 - Use Director and Tennenbaum as *sources to investigate*, not as substitutes for Gauss's and Riemann's papers.
 - Reproduce mathematical constructions and calculations independently; record discrepancies rather than silently correcting an author's claims.
+
+## Primary papers: Leibniz → Cotes → Gauss → Riemann
+
+- [Primary-source catalog](sources/PRIMARY.md): original 1684/1686/1691 *Acta Eruditorum* volumes (including Leibniz's catenary papers), Cotes's 1714 *Logometria* and 1722 *Harmonia mensurarum*, Gauss's 1799 dissertation and 1809 *Theoria motus*, and Riemann's 1851/1857 papers. **Actual original-edition facsimile links** are distinguished from later modern re-typesettings.
+- [Director/Tennenbaum/LYM citation trail and books](sources/RECEPTION.md): identifies which original papers to compare, modern historical scholarship by Viktor Blåsjö, Michel Serfati, and Jesper Lützen, and what citation claims still need page-level checking.
+- [Mathematical reconstruction questions](sources/QUESTIONS.md): catenary/logarithms; Cotes and angle; Riemann's `log(z − a)`, branches and Abelian functions; hypergeometric monodromy; Ceres observation data.
+- [PDF download manifest](sources/downloads.tsv) and [fetch-primary.sh](scripts/fetch-primary.sh): reproducible access to full original scans and labelled transcriptions. From the repository root: `bash scripts/fetch-primary.sh core` (includes the ~87 MB 1691 volume), or `bash scripts/fetch-primary.sh all` for the larger corpus. PDF bytes are **not presently committed** to the repository; the script downloads them to `papers/`, validates the PDF header, and writes checksums.
+
+**Source priority:** original pages > critical/collected editions > modern transcriptions/translations > Director/Tennenbaum essays. The last category is useful for finding questions, not proof of historical facts. In Riemann's 1857 *Theorie der Abel'schen Functionen*, the opening sections directly treat “Transcendenten”, branches of `log(z − a)`, and continuation on multi-sheeted surfaces.
