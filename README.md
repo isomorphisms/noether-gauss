@@ -2,12 +2,26 @@
 
 A reading and reconstruction project on the mathematics and history surrounding Gauss, Riemann, and related work. Start with the sources; distinguish what an author actually wrote from later interpretations.
 
-## Reading
+**Working question, not an adopted position:** do the accounts of action, physical constraints, and global function theory change our understanding of linear regression? Considering these claims does not mean endorsing them. Distinguish the choice of an admissible physical model from the adjustment of that model to imperfect observations.
+
+## Topic-focused readings
+
+| Reading | What has actually been examined |
+| --- | --- |
+| [Gauss: Theoria motus](sources/gauss-theoria-motus.md) | Complete original and English-edition links; the preface, physical assumptions, and §§175–181 on probability and least squares, with a modern derivation. |
+| [Chris Quigg: A Century of Noether's Theorem](sources/quigg-noether.md) | Full article text read and summarized for the symmetry/action question. [Official Fermilab lecture page, video and slides](https://events.fnal.gov/colloquium/events/event/quigg-colloq-2018/). The recording itself has not been watched. |
+| [Leibniz, Riemann, and Director: action and regression](sources/action-regression-reading-notes.md) | Source-specific summaries, stated reading coverage, the actual Part 63 pairwise claim, a catenary derivation, Riemann's quadratic functional, and counterexamples separating local terms from global dependence. |
+| [Ceres and regression](sources/ceres-and-regression.md) | Selected passages from Tennenbaum and Director on lines of sight, physical constraints, numerical sensitivity, and successive correction. Not a claim to have reproduced the entire orbit calculation. |
+| [Newton manuscript image audit](sources/newton-manuscript-audit.md) | The worked five-ring series compared with a photographic manuscript reproduction; RMS distinguished from averaging differences of squared diameters. Overwriting and uncertain far-right digits are recorded. |
+
+These notes are not claims to have read every linked book. Cotes's complete *Logometria*, Buchwald's complete 2006 article, the whole Ceres essay, and the remainder of Director's series still need their own completed readings. The Newton audit is a focused image check, not a full diplomatic transcription of the manuscript.
+
+## Reading catalog
 
 - **[How Gauss Determined the Orbit of Ceres](https://archive.schillerinstitute.com/fid_97-01/982_Gauss_Ceres.html)** — Jonathan Tennenbaum **and Bruce Director**, *Fidelio*, Summer 1998. The publisher's page links the full PDF and individual chapters.
 - **[Riemann for Anti-Dummies — Bruce Director](sources/riemann-for-anti-dummies.md)** — series archive, selected individual installments, and a Gauss/Riemann reading trail.
 - **[Newton and discrepant measurements — Jed Buchwald](sources/newton-discrepant-measurements.md)** — historical source trail, the account-derived lecture, and Newton's own description of taking means.
-- **[Worked Newton ring series](sources/newton-rings-1671-reconstruction.md)** — historical numerical input, exact arithmetic, a modern least-squares comparison, and 12 reproducible checks. The numerical transcription is not yet audited against the autograph.
+- **[Worked Newton ring series](sources/newton-rings-1671-reconstruction.md)** — historical numerical input, exact arithmetic, and a modern least-squares comparison. Read with the subsequent [image audit and qualifications](sources/newton-manuscript-audit.md), which supersede the earlier unaudited status for the inspected portion.
 
 ## Account-derived reading
 
@@ -17,14 +31,14 @@ A reading and reconstruction project on the mathematics and history surrounding 
 ## Working rules
 
 - Keep author, title, date (when established), URL, and the distinction between a contemporaneous source, a later interpretation, and our own reconstruction.
-- Use Director and Tennenbaum as *sources to investigate*, not as substitutes for Gauss's and Riemann's papers.
-- Reproduce mathematical constructions and calculations independently; record discrepancies rather than silently correcting an author's claims.
+- Use Director and Tennenbaum as sources to investigate, not substitutes for Gauss's and Riemann's papers. Do not ascribe a modern introduction's claims to a historical author.
+- Reproduce mathematical constructions and calculations independently; record discrepancies rather than silently correcting an author's claims. State the actual reading and verification coverage.
 
 ## Primary papers: Leibniz → Cotes → Gauss → Riemann
 
-- [Primary-source catalog](sources/PRIMARY.md): original 1684/1686/1691 *Acta Eruditorum* volumes (including Leibniz's catenary papers), Cotes's 1714 *Logometria* and 1722 *Harmonia mensurarum*, Gauss's 1799 dissertation and 1809 *Theoria motus*, and Riemann's 1851/1857 papers. **Actual original-edition facsimile links** are distinguished from later modern re-typesettings.
-- [Director/Tennenbaum/LYM citation trail and books](sources/RECEPTION.md): identifies which original papers to compare, modern historical scholarship by Viktor Blåsjö, Michel Serfati, and Jesper Lützen, and what citation claims still need page-level checking.
-- [Mathematical reconstruction questions](sources/QUESTIONS.md): catenary/logarithms; Cotes and angle; Riemann's `log(z − a)`, branches and Abelian functions; hypergeometric monodromy; Ceres observation data.
-- [PDF download manifest](sources/downloads.tsv) and [fetch-primary.sh](scripts/fetch-primary.sh): reproducible access to full original scans and labelled transcriptions. From the repository root: `bash scripts/fetch-primary.sh core` (includes the ~87 MB 1691 volume), or `bash scripts/fetch-primary.sh all` for the larger corpus. PDF bytes are **not presently committed** to the repository; the script downloads them to `papers/`, validates the PDF header, and writes checksums.
+- [Primary-source catalog](sources/PRIMARY.md): original 1684/1686/1691 *Acta Eruditorum* volumes, Cotes's 1714 *Logometria* and 1722 *Harmonia mensurarum*, Gauss's 1799 dissertation and 1809 *Theoria motus*, and Riemann's 1851/1857 papers. Original-edition facsimiles are distinguished from modern re-typesettings.
+- [Director/Tennenbaum/LYM citation trail and books](sources/RECEPTION.md): original papers to compare, scholarship by Viktor Blåsjö, Michel Serfati, and Jesper Lützen, and claims still needing page-level checking.
+- [Mathematical reconstruction questions](sources/QUESTIONS.md): catenary/logarithms; Cotes and angle; Riemann's `log(z − a)`, branches and Abelian functions; hypergeometric monodromy; Ceres observations.
+- [PDF download manifest](sources/downloads.tsv) and [fetch-primary.sh](scripts/fetch-primary.sh): complete editions accessible from the repository. From its root, run `bash scripts/fetch-primary.sh core`, or `bash scripts/fetch-primary.sh all` for the larger corpus. PDF bytes are not committed; the script downloads them to `papers/`, validates the PDF header, and writes checksums. The Gauss reading note records checksums of the complete editions actually retrieved.
 
-**Source priority:** original pages > critical/collected editions > modern transcriptions/translations > Director/Tennenbaum essays. The last category is useful for finding questions, not proof of historical facts. In Riemann's 1857 *Theorie der Abel'schen Functionen*, the opening sections directly treat “Transcendenten”, branches of `log(z − a)`, and continuation on multi-sheeted surfaces.
+**Source priority:** original pages > critical/collected editions > modern transcriptions/translations > later interpretive essays. Later essays can supply questions without establishing their historical or philosophical conclusions.
