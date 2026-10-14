@@ -107,6 +107,7 @@ These are printed in the scholarly **Leibniz-Akademie-Ausgabe**, Series III, vol
 
 - **Original:** *Journal für die reine und angewandte Mathematik* 54 (1857), pp. 101–155 **as stated in the Wilkins transcription**. Check original pagination if making page-precise quotations; external catalogs differ.
 - **Contemporary separate-edition facsimile:** [ETH-Bibliothek / e-rara, Berlin 1857](https://www.e-rara.ch/zut/content/titleinfo/13599822), [DOI 10.3931/e-rara-49484](https://doi.org/10.3931/e-rara-49484) (public-domain, full 15.35 MB download).
+- **First-edition original text, OCR:** [ETH-Bibliothek, downloadable entire 1857 German printing as machine-extracted text](https://www.e-rara.ch/zut/download/ftpack/plain/13599822). Cross-checked the wording of §1 and the §3 **minimum-existence inference** against the Wilkins text. OCR symbols must not be treated as accurate formulas; verify against scans.
 - **Full text, modern transcription:** [Wilkins PDF](https://www.emis.de/classics/Riemann/AbelFn.pdf).
 - **Especially important primary passage:** beginning of §1: Riemann announces investigations of “Transcendenten”; §§1–2 discuss analytic continuation, `log(z − a)`, its `2πi` increment on circling `a`, branching, sheets, and topology; §3 discusses determination of transcendental functions and Dirichlet's principle.
 - **Read for:** Riemann's own definitions/operations, not retroactively imposed accounts of “transcendental.”
