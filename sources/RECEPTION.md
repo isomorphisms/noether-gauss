@@ -22,6 +22,13 @@ These are **reception and historical interpretation**, not replacements for the 
 
 **Unverified:** a complete, article-by-article list of all Cotes, Leibniz and Riemann citations across the entire LYM/WLYM corpus. The table identifies checked titles and credible source routes, not an exhaustive citation concordance. Add exact passages and printed pages as those are inspected. Do not label topic similarity a direct citation.
 
+## Checked against original mathematical texts, 2026-10-13
+
+- **Leibniz → modern LYM translation:** the *Fidelio* 2001 Beaudry “Two Papers” explicitly derives from Marc Parmentier's **1989 French translation**, compared against Gerhardt's Latin edition. The *actual* contemporary June and September **1691 Latin articles** are in the original *Acta Eruditorum* journal. More importantly, the **1691 letters to von Bodenhausen** and Leibniz's *Analysis problematis catenarii* (Akademie-Ausgabe III/5 nos. 24, 33–34) expose the printed construction's withheld normalization, including **2.7182818**. See [primary-source Leibniz audit](leibniz-catenary-primary-audit.md).
+- **Cotes 1714:** actual printed pp. **5–6, 27, 29** of the *Logometria* original scan were read. Cotes calls logarithms the **numerical measures of ratios** (p. 6), and discusses the logistic curve and the quadrature of the hyperbola (pp. 27–29). A modern complex logarithm expression is **not** a verbatim quotation from those pages. The alleged connection with the formula often attributed to Cotes must be checked separately in the **1722 posthumous *Harmonia mensurarum*** and its separate pagination. See [Cotes original-page audit](cotes-logometria-primary-audit.md).
+- **Riemann §3 → Director:** Director's *Fidelio* [“Bernhard Riemann's ‘Dirichlet's Principle’”](https://archive.schillerinstitute.com/fid_02-06/2004/044_riemann_dirichlet.html) is directly comparable to Riemann's *Theorie der Abel'schen Functionen*, original pp. **111–113** (§3). Riemann's inference of a minimizer from a nonnegative finite integral requires further justification. Director's dismissal of Weierstrass's objection, and his account of harmonic level-curve curvatures and torus boundaries, do not follow mathematically. Read [Riemann/Director full source audit and constructive counterexample](director-riemann-dirichlet-audit.md).
+- **Citation standard:** the three audits check particular original pages and texts. They **do not certify** a complete searchable concordance for Director/Tennenbaum/LYM; treating merely similar subject matter as a confirmed quotation would distort the provenance.
+
 ## Historical scholarship on mathematical transcendence
 
 These are secondary histories; link them, but do not commit copyrighted modern books.
