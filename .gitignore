@@ -1,0 +1,5 @@
+# Locally downloaded primary-source PDFs; see sources/downloads.tsv and scripts/fetch-primary.sh
+papers/*.pdf
+papers/*.pdf.part
+papers/*.pdf.source
+papers/SHA256SUMS
