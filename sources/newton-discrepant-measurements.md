@@ -2,6 +2,14 @@
 
 **Question.** Jed Z. Buchwald argues that Newton developed an unusual way of working with inconsistent observations: instead of selecting one supposedly best measurement and discarding the others, he could **combine multiple individually unreliable measurements by taking an average**. How does that practice relate to Gauss's later work on observation errors and orbit determination?
 
+## Exact lecture recovered from the account
+
+The [2025-03-19 post](https://x.com/isomorphisms/status/1902308168790618423), selected in @for_gP3's Reposts, links **Jed Buchwald, “How Calculations Invaded the Deep Past”**, published by the Qualcomm Institute: [video](https://youtu.be/l7GoDsDlyMY), [post's original shortlink](https://t.co/5MxBFipl6C).
+
+The linked video's opening transcript was retrieved. Buchwald discusses Newton's handling of discrepant experimental numbers, introduces an early surviving experimental manuscript as an averaging example, and connects this practice to his work with Mordechai Feingold. This is the exact account-derived lecture behind the user's recollection, rather than a guessed substitute from the same speaker.
+
+The post additionally uses the word “regression” and names Huygens/Hooke as comparators. Those details need passage-level checking; the recovered opening does not by itself establish modern regression or the priority claim. The transcript is a finding aid, not a substitute for the manuscript page or a verified numerical reconstruction. See [the account catalog](for-gp3.md).
+
 ## What Buchwald actually claims
 
 - In the abstract for his lecture **“The Newtonian Origins of Experimental Error”** (advertised for 2020 by the Niels Bohr Archive), Buchwald contrasts Tycho Brahe, Robert Hooke, René Descartes, and Johannes Hevelius with the young Newton. He says Newton was the first to see that unreliable individual numbers could be combined to produce a better estimate. This is **Buchwald's historical priority claim**, not a priority judgment independently established here. [Niels Bohr Archive lecture announcement](https://nbarchive.ku.dk/nba_calendar/2020/buchwald/).

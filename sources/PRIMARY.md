@@ -108,6 +108,17 @@ Original publication and modern scan/transcription are *not* the same thing. Lin
 - *Ueber die Hypothesen, welche der Geometrie zu Grunde liegen* — [German full text](https://www.emis.de/classics/Riemann/Geom.pdf), [W. K. Clifford's 1873 English translation](https://www.emis.de/classics/Riemann/WKCGeom.pdf). Keep the lecture and publication years separate.
 - *Ueber die Darstellbarkeit einer Function durch eine trigonometrische Reihe* — [German full text](https://www.emis.de/classics/Riemann/Trig.pdf) (**verify filename before scripted download**).
 
+## Emmy Noether (1882–1935)
+
+### 1918 — *Invariante Variationsprobleme*
+
+- **Original:** *Nachrichten von der Gesellschaft der Wissenschaften zu Göttingen, Mathematisch-Physikalische Klasse*, 1918, pp. 235–257. German.
+- **Library record:** [EuDML](https://eudml.org/doc/59024); title, author, year, and pages checked against the record.
+- **Original-paper facsimile:** [23-page DjVu scan](https://commons.wikimedia.org/wiki/File:InvarianteVariationsprobleme.djvu), with page images accessible from the catalog.
+- **Modern German transcription:** [Wikisource](https://de.wikisource.org/wiki/Invariante_Variationsprobleme); distinguish reset text from photographed pages.
+- **Account-derived route:** [the user's 2023-03-02 post](https://x.com/isomorphisms/status/1631278573674700802), reposted by @for_gP3, points to Chris Quigg's [*Colloquium: A Century of Noether's Theorem*](https://arxiv.org/abs/1902.01989), a 2019 history based on a 2018 colloquium. Quigg's paper is a later account, not Noether's original publication.
+- **Read for:** the two different results for finite-parameter and arbitrary-function transformation groups. Record the assumptions and variation problem before applying the results to a mechanical example. Full mathematical comparison remains pending.
+
 ## How to work through the original texts
 
 1. Record the original passage and printed page (for *Acta Eruditorum*, journal pagination differs from PDF image numbers).

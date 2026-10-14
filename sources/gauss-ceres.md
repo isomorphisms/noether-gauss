@@ -108,8 +108,8 @@ Do not substitute a generic least-squares demonstration for the historical const
 
 ## `@for_gp3` intake status
 
-The requested account is `@for_gp3`. Direct X access returned an access error, alternate retrieval yielded no profile content, and focused searches produced no attributable posts. **This is a retrieval limit, not evidence of an empty account.**
+**Updated 2026-10-13:** signed-in access recovered the account's Reposts collection. The [2022-07-03 original post selected by @for_gP3](https://x.com/isomorphisms/status/1543794785537953793) links Tennenbaum and Director's Ceres essay through [its actual shortlink](https://t.co/xHVQEXVMTp), which returned the essay text. The earlier retrieval failure is superseded; it was never evidence of an empty account.
 
-No posts have been imported, and nothing above is represented as a recovered tweet. The article was located from the author and subject supplied in the conversation.
+See the [annotated account-derived catalog](for-gp3.md) and [114-row inventory](for-gp3-inventory.tsv). The dates recorded are original-post dates, not repost dates. The collection also supplies Cotes's *Logometria*, Gauss's later least-squares discussion, Leibniz's catenary papers, Buchwald's exact Newton lecture, and Quigg's Noether history.
 
-For each recovered post, retain its ID, date, permalink, available thread context, and outbound links. Distinguish the account's own commentary from quoted posts, replies, and reposts. Record missing context and unavailable sources. Further account-derived topics await actual posts or an account archive, rather than guesses about what the account contains.
+The posts establish source provenance. They do not verify every caption, historical claim, image, or complete thread. The mathematical checks and unresolved primary-observation questions above remain at their stated evidence levels.

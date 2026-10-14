@@ -8,6 +8,11 @@ A reading and reconstruction project on the mathematics and history surrounding 
 - **[Riemann for Anti-Dummies — Bruce Director](sources/riemann-for-anti-dummies.md)** — series archive, selected individual installments, and a Gauss/Riemann reading trail.
 - **[Newton and discrepant measurements — Jed Buchwald](sources/newton-discrepant-measurements.md)** — evidence for Newton's unusual averaging of conflicting observations, with an explicit distinction from Gauss's later error theory and a primary-manuscript verification plan.
 
+## Account-derived reading
+
+- [@for_gP3 source catalog](sources/for-gp3.md): the actual Ceres, Cotes, Leibniz, Riemann, Buchwald, and Noether posts, plus related history and geometry. Retrieved 114 visible repost targets; original-post dates, source identities, edition mismatches, image-only leads, and missing thread context are distinguished.
+- [Complete 114-post URL inventory](sources/for-gp3-inventory.tsv): original permalinks and exposed outbound links, in collection order.
+
 ## Working rules
 
 - Keep author, title, date (when established), URL, and the distinction between a contemporaneous source, a later interpretation, and our own reconstruction.
