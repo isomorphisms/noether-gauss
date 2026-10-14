@@ -64,7 +64,7 @@ These are printed in the scholarly **Leibniz-Akademie-Ausgabe**, Series III, vol
 - **DOI:** [10.1098/rstl.1714.0002](https://doi.org/10.1098/rstl.1714.0002).
 - **Original-paper facsimile:** [Wikimedia Commons, 41-page PDF](https://commons.wikimedia.org/wiki/File:Logometria_Auctore_Rogero_Cotes,_Trin._Coll._Cantab._Soc._Astr._%26_Ph._Exp._Professore_Plumiano,_%26_R._S._S._(IA_paper-doi-10_1098_rstl_1714_0002).pdf).
 - **Read for:** logarithmic measurement, angles, series, circular/hyperbolic relationships. Keep the geometry and modern complex-logarithm interpretation separate.
-- **Source-page reading**: [Cotes's 1714 *Logometria* original-page audit](cotes-logometria-primary-audit.md); printed pp. 5–6, 27 and 29 were examined against page images. Printed p. 6 explicitly defines logarithms as numerical measures of ratios; p. 27 gives the logistic-curve construction; p. 29 discusses hyperbola quadrature. Do **not** confuse pp. 27–28 of this 1714 paper with pages in the 1722 *Harmonia mensurarum*.
+- **Original-page reading**: [Cotes's 1714 *Logometria* audit](cotes-logometria-primary-audit.md) directly inspects pp. **5–6, 27, 29, 31–33**, including the important **complex circular-arc and logarithmic-ratio relation, with √−1, printed on p. 32**. Smith reprinted *Logometria* as Part I in *Harmonia mensurarum* (1722), starting its pagination at p. 1, so the corresponding 1722 reference is **Part I p. 28**, not 1714 p. 28. This resolves the common bibliographic confusion. The later notation for the complex logarithm and branch conventions must be distinguished from what Cotes actually printed.
 
 ### 1722 — *Harmonia mensurarum sive analysis et synthesis per rationum et angulorum mensuras promotae*
 
