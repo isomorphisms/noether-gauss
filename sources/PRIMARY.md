@@ -37,6 +37,19 @@ Original publication and modern scan/transcription are *not* the same thing. Lin
 - **Further comparison:** [2019 scholarly study of Leibniz's calculations and the constant e](https://doi.org/10.1016/j.hm.2019.06.001).
 - **Read for:** the geometry of a hanging chain, relation of logarithmic and catenary curves, rectification, tangency, the exponential/logarithmic construction. Distinguish Leibniz's arguments from the **modern** equation `y = a cosh(x/a)`, which is a useful reconstruction, not his printed notation.
 
+### 1691 — Leibniz's letters to von Bodenhausen and *Analysis problematis catenarii* (primary manuscripts)
+
+The June 1691 printed construction is **not** the full historical derivation. Leibniz discusses its hidden numerical normalization and his analysis in **contemporaneous unpublished correspondence**:
+
+- **12/22 June 1691**, Leibniz to Rudolf Christian von Bodenhausen, **No. 24, p. 118 ff.**, supplying the crucial proportions **0.3678794 : 1 : 2.7182818**, equivalent to the reciprocal/exponential numbers now called `e⁻¹ : 1 : e`.
+- **10/20 August 1691**, Leibniz to von Bodenhausen, **No. 33, pp. 143–153**.
+- *Analysis problematis catenarii*, accompanying Latin mathematical derivation, **No. 34, pp. 154–155**.
+
+These are printed in the scholarly **Leibniz-Akademie-Ausgabe**, Series III, vol. 5 (edited H.-J. Heß and James G. O'Hara; 2003). **Edition of the original author's letters**, not an *Acta Eruditorum* article or seventeenth-century facsimile. [Edition landing page (Leibniz Archive, rights CC BY-NC 4.0)](https://www.gwlb.de/leibniz/digitale-ressourcen/repositorium-des-leibniz-archivs/laa-bd-iii-5); [downloadable part A PDF](https://rep.adw-goe.de/bitstream/handle/11858/2441/III5A.pdf).
+
+- **Historical corroboration:** Michael Raugh and Siegmund Probst, [“The Leibniz catenary and approximation of e — an analysis of his unpublished calculations”](https://www.sciencedirect.com/science/article/pii/S0315086018301290), *Historia Mathematica* **49** (2019), pp. 1–19. They examine the surviving original arithmetic sheets and identify the omitted constant in the geometric construction.
+- **Mathematical reading / normalization audit:** [Leibniz 1691 primary-source comparison](leibniz-catenary-primary-audit.md).
+
 ### Other Leibniz material to track
 
 - *Considérations sur la différence entre l'analyse ordinaire et le nouveau calcul des transcendantes* (1694): check collected works / original publication before assigning an unverified journal citation.
