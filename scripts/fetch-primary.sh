@@ -23,7 +23,10 @@ while IFS=$'\t' read -r tier filename url edition; do
   [[ "$mode" == all || "$tier" == core ]] || continue
   [[ "$filename" =~ ^[A-Za-z0-9._-]+[.]pdf$ ]] || { echo "Unsafe filename: $filename" >&2; exit 1; }
   [[ "$url" == https://* ]] || { echo "Unsupported URL: $url" >&2; exit 1; }
-  [[ "$edition" == original-facsimile || "$edition" == modern-transcription ]] || { echo "Unknown edition type: $edition" >&2; exit 1; }
+  case "$edition" in
+    original-facsimile|modern-transcription|critical-edition|historical-English-translation|author-article-based-on-2018-colloquium) ;;
+    *) echo "Unknown edition type: $edition" >&2; exit 1 ;;
+  esac
 
   target="$output_dir/$filename"
   if [[ -f "$target" && "$(head -c 5 "$target")" == '%PDF-' ]]; then
