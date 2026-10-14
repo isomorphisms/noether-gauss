@@ -42,3 +42,12 @@ These notes are not claims to have read every linked book. Cotes's complete *Log
 - [PDF download manifest](sources/downloads.tsv) and [fetch-primary.sh](scripts/fetch-primary.sh): complete editions accessible from the repository. From its root, run `bash scripts/fetch-primary.sh core`, or `bash scripts/fetch-primary.sh all` for the larger corpus. PDF bytes are not committed; the script downloads them to `papers/`, validates the PDF header, and writes checksums. The Gauss reading note records checksums of the complete editions actually retrieved.
 
 **Source priority:** original pages > critical/collected editions > modern transcriptions/translations > later interpretive essays. Later essays can supply questions without establishing their historical or philosophical conclusions.
+
+
+## Original-page and manuscript audits
+
+- [Cotes, *Logometria* (1714)](sources/cotes-logometria-primary-audit.md): **actual original-page images** and the statements on logarithms (printed p. 6), the logistic curve (p. 27) and hyperbola quadrature (p. 29). Do not confuse this work's pagination with the posthumous *Harmonia mensurarum*.
+- [Leibniz's catenary (1691)](sources/leibniz-catenary-primary-audit.md): original Latin print, *Leibniz-Akademie-Ausgabe* letters to von Bodenhausen, unpublished catenary analysis, and the hidden exponential ratio approximating **e**; includes a modern derivation with its scaling assumptions.
+- [Riemann's Dirichlet principle vs Director's interpretation](sources/director-riemann-dirichlet-audit.md): source-by-source §1/§3 notes, Weierstrass's existence criticism, Schwarz's subsequent constructive work and a worked counterexample showing **infimum ≠ attained minimum**.
+
+**Work still open:** the complete original PDF scans have not been checked into Git; the full Latin journal pages (including Leibniz's Plate VII), the original *Harmonia mensurarum* argument, and an exhaustive, line-by-line Director/LYM citation concordance remain to be completed. See the individual audit status statements.
