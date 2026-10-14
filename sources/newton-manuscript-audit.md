@@ -1,22 +1,25 @@
-# Newton's ring manuscript: image audit and the RMS question
+# Newton's ring manuscript: direct image audit and the RMS question
 
-## Evidence actually inspected
+## Primary evidence inspected
 
-The numerical reconstruction previously relied on a later table transcription. This audit additionally inspects a photograph of Newton's handwritten experimental page, reproduced from Alan E. Shapiro, “Newton's Optical Notebooks: Public Versus Private Data,” in *Reworking the Bench* (2003), pp. 43–65. The repository's manuscript reference is Cambridge University Library, MS Add. 3970, ff. 350–353v.
+The worked table is on **Cambridge University Library, MS Add. 3970, folio 350v**. This identification is confirmed by the library's labelled IIIF manifest and direct page image, not inferred merely from a later caption.
 
-- [Cambridge manuscript viewer](https://cudl.lib.cam.ac.uk/view/MS-ADD-03970/1).
+- [Direct manuscript viewer at folio 350v](https://cudl.lib.cam.ac.uk/view/MS-ADD-03970/714).
 - [Cambridge IIIF manifest](https://cudl.lib.cam.ac.uk/iiif/MS-ADD-03970).
-- [Reproduction and caption identifying Shapiro's source](https://press.asimov.com/articles/lab-notebooks).
-- [Photographic reproduction inspected](https://res.cloudinary.com/rzhlimlt/image/upload/v1786918344/asimov-press/clone-1a1fa44c26203aff.png).
-- Reproduction SHA-256: `80872390b0df53568024cb11c302e9670744cc77b7335450871f9fe76583f88c`.
+- [Direct Cambridge image of 350v](https://images.lib.cam.ac.uk/iiif/MS-ADD-03970-003-00678.jp2/full/3000,/0/default.jpg).
+- [Preceding folio 350r: propositions](https://images.lib.cam.ac.uk/iiif/MS-ADD-03970-003-00677.jp2/full/3000,/0/default.jpg).
+- 350v downloaded JPEG SHA-256: `bcd92da8c5d2309e3e16500d79821526c23cf8644c4bc7b99ea1cdc36ab99bd4`.
+- 350r downloaded JPEG SHA-256: `4b4b3e4151703805e872fffa4961bfb8d39073c28cb13881041c111b25d037bc`.
 
-The photograph was examined both as a complete page and as an enlarged table. It contains Experiments 1–3 and further notes. Its caption calls it the second page of the coloured-circles manuscript. The exact individual folio of this reproduction is not independently established here; do not silently replace the folio range with a guessed folio.
+Both sides of folio 350 were visually inspected, with enlarged views of the table and the prose immediately below it. Images of 351r–353v were also retrieved and their page arrangement surveyed, but a full transcription of those pages is not claimed. The image service returned 1613 × 2000-pixel pages despite the requested size; the actual bytes, not the requested dimensions, define this audit's resolution.
 
-**Scope:** the five-ring series underlying our worked example, the organization of the table, and the disputed fractional entry in another row. This is not a diplomatic transcription of all eight manuscript sides.
+The earlier black-and-white reproduction agrees with this page: [reproduction](https://res.cloudinary.com/rzhlimlt/image/upload/v1786918344/asimov-press/clone-1a1fa44c26203aff.png), with [caption and provenance](https://press.asimov.com/articles/lab-notebooks) crediting Alan E. Shapiro, “Newton's Optical Notebooks: Public Versus Private Data,” in *Reworking the Bench* (2003), pp. 43–65. Its SHA-256 is `80872390b0df53568024cb11c302e9670744cc77b7335450871f9fe76583f88c`.
 
-## Findings
+## Findings from the autograph
 
-The page explicitly organizes measurements as diameters, squares of diameters, and differences between those squares. Its prose discusses sines of viewing obliquities and a mean difference. The left-hand numbers are not degree labels.
+Folio 350r begins with propositions about the rings' areas and the spaces through which rays pass. Folio 350v contains Experiments 1–3 and further observations. Its table explicitly separates diameters, squared diameters, and differences of squared diameters. Its introductory prose identifies the left-hand figures as sines associated with viewing obliquity, not degrees.
+
+The note immediately below the first table compares the differences with their mean and treats their closeness as support for the first rule. Thus the interpretation as a mean of squared-diameter differences is supported by Newton's own prose, not only by our reconstruction.
 
 The worked row is consistent with the following transcription:
 
@@ -28,9 +31,14 @@ The worked row is consistent with the following transcription:
 | 4 | 89 | 7921 | 1880 |
 | 5 | 99 | 9801 | — |
 
-Several entries on the page were overwritten. The squared values and central entries are clearer than the first diameter and the far-right summary columns. The later transcription's mean 1944 and remainder 81 are arithmetically confirmed below; the photograph is not sharp enough to claim an independent, equally certain reading of every far-right digit.
+**Diplomatic limits:** the first diameter is overwritten, as are several figures elsewhere. The squared values, middle diameters, and difference sequence provide cross-checks, but they do not restore every overwritten stroke. The far-right columns are especially difficult near the binding. The later transcription's mean 1944 and remainder 81 are arithmetically confirmed below; do not claim an equally certain independent visual reading of every summary digit, particularly 81.
 
-A separate first-row entry appears as **51⅓**, not the **51⅔** given in the discrepant later transcription discussed in our original note. This reading agrees with 2635 as a whole-number approximation: (51⅓)² = 2635⅑, whereas (51⅔)² = 2669⁴⁄₉. Preserve this as an image-supported correction with the photograph's resolution qualification, rather than silently rewriting the historical source.
+A separate first-row entry reads **51⅓**, not the **51⅔** in the discrepant later transcription discussed in our original reconstruction. The direct colour scan supports the one-third reading. It agrees with the displayed 2635 as a whole-number approximation:
+
+    (51⅓)² = 2635⅑,
+    (51⅔)² = 2669⁴⁄₉.
+
+This is an image-supported correction to the later transcription, not permission to silently alter the historical record.
 
 ## What was computed — and what was not
 
@@ -41,11 +49,11 @@ The arithmetic is
 
 No square root occurs in this operation. Nor are those four inputs squared residuals. Calling this operation RMS, root-mean-square error, or a least-squares regression is incorrect.
 
-There is a further important limitation:
+A further important limitation follows by telescoping:
 
     average successive difference = (D₅² − D₁²) / 4.
 
-The interior squared diameters cancel from that particular average. They still show departures from the proposed progression, but they do not affect its endpoint-based average step. Thus “using all the observations” needs a more exact description.
+The interior squared diameters cancel from that particular average. They still reveal departures from the proposed progression, but do not affect its endpoint-based average step. Thus “using all the observations” needs a more exact description.
 
 ## Why squared diameters are relevant
 
@@ -55,7 +63,7 @@ Our geometric derivation makes this explicit. For a sphere of radius R and a pla
 
     thickness = R − √(R² − r²) ≈ r²/(2R) = D²/(8R).
 
-Squaring D therefore expresses a physical/geometric hypothesis about film thickness. This is distinct from choosing to square an observation error. The modern interference explanation is not needed to establish what quantity Newton was manipulating.
+Squaring D expresses a physical/geometric hypothesis about film thickness. This is distinct from choosing to square an observation error. The modern interference explanation is not needed to establish what quantity Newton was manipulating.
 
 ## Comparison with regression: our calculation, not Newton's
 
@@ -64,12 +72,12 @@ Fitting Dₙ² = intercept + slope × n by ordinary unweighted least squares giv
     intercept = 15.3, slope = 1962.9,
     sum of squared residuals = 15999.9.
 
-The endpoint-based progression 81 + 1944n has squared-residual sum 19977. They are different estimators of a step, even on the same transformed data.
+The endpoint-based progression 81 + 1944n has squared-residual sum 19977. They are different estimators on the same transformed data. These figures and the two fractional-diameter squares were independently checked using exact rational arithmetic.
 
-If the squared-diameter measurement errors were independent with variance σ², their consecutive differences would have variance 2σ² and adjacent covariance −σ². Treating those differences as independent replicates would change the statistical assumptions. If errors instead have constant variance in diameter, squaring introduces a different, generally unequal-variance error model. Geometry alone does not decide the appropriate regression weights.
+If squared-diameter errors were independent with variance σ², consecutive differences would have variance 2σ² and adjacent covariance −σ². Treating differences as independent replicates changes the assumptions. If errors instead have constant variance in diameter, squaring generally produces unequal variances. Geometry alone does not decide regression weights.
 
-## Retrieval limitation recorded, not concealed
+## Retrieval correction and completion boundary
 
-The initial reading-evidence archive contains eight files named `newton-00-350r.jpg` through `newton-07-353v.jpg`. They are actually 834-byte IIIF metadata responses, not Cambridge page images. Their successful HTTP retrieval is **not image verification**. None supports this audit. The separately retrieved photographic reproduction above does.
+The initial archive's eight tiny `.jpg` files were IIIF metadata, not images, and were never used as visual evidence. The retrieval script was corrected to request rendered images and validate their signatures. The subsequent run retrieved actual Cambridge JPEGs for all eight sides; the direct 350r–v inspection above uses those corrected files.
 
-The numerical question is resolved at the level of the inspected reproduction and exact arithmetic. A full autograph transcription and a sharper reading of the overwritten and far-right entries remain open. Neither this page nor the published passage establishes a claim that Newton invented all averaging or regression.
+The focused manuscript check underlying our worked numerical example is complete: the page identity, operation, supporting prose, and disputed fraction have been checked against the direct scan. A full diplomatic edition, reconstruction of overwritten states, and certain reading of every far-right digit remain separate tasks. No claim that Newton invented all averaging or regression follows from this audit.
