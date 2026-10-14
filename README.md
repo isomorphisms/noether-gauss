@@ -46,7 +46,7 @@ These notes are not claims to have read every linked book. Cotes's complete *Log
 
 ## Original-page and manuscript audits
 
-- [Cotes, *Logometria* (1714)](sources/cotes-logometria-primary-audit.md): **actual original-page images** and the statements on logarithms (printed p. 6), the logistic curve (p. 27) and hyperbola quadrature (p. 29). Do not confuse this work's pagination with the posthumous *Harmonia mensurarum*.
+- [Cotes, *Logometria* (1714)](sources/cotes-logometria-primary-audit.md): **original page images** show logarithms as measures of ratios (p. 6), logistic curve (p. 27), hyperbola quadrature (p. 29), and **the logarithm/circular-arc relation using √−1 (p. 32)**. The same material was reprinted as Part I of *Harmonia mensurarum* (1722), with **p. 32 of 1714 corresponding to Part I p. 28 of 1722**.
 - [Leibniz's catenary (1691)](sources/leibniz-catenary-primary-audit.md): original Latin print, *Leibniz-Akademie-Ausgabe* letters to von Bodenhausen, unpublished catenary analysis, and the hidden exponential ratio approximating **e**; includes a modern derivation with its scaling assumptions.
 - [Riemann's Dirichlet principle vs Director's interpretation](sources/director-riemann-dirichlet-audit.md): source-by-source §1/§3 notes, Weierstrass's existence criticism, Schwarz's subsequent constructive work and a worked counterexample showing **infimum ≠ attained minimum**.
 
