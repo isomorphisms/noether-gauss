@@ -64,6 +64,7 @@ These are printed in the scholarly **Leibniz-Akademie-Ausgabe**, Series III, vol
 - **DOI:** [10.1098/rstl.1714.0002](https://doi.org/10.1098/rstl.1714.0002).
 - **Original-paper facsimile:** [Wikimedia Commons, 41-page PDF](https://commons.wikimedia.org/wiki/File:Logometria_Auctore_Rogero_Cotes,_Trin._Coll._Cantab._Soc._Astr._%26_Ph._Exp._Professore_Plumiano,_%26_R._S._S._(IA_paper-doi-10_1098_rstl_1714_0002).pdf).
 - **Read for:** logarithmic measurement, angles, series, circular/hyperbolic relationships. Keep the geometry and modern complex-logarithm interpretation separate.
+- **Source-page reading**: [Cotes's 1714 *Logometria* original-page audit](cotes-logometria-primary-audit.md); printed pp. 5–6, 27 and 29 were examined against page images. Printed p. 6 explicitly defines logarithms as numerical measures of ratios; p. 27 gives the logistic-curve construction; p. 29 discusses hyperbola quadrature. Do **not** confuse pp. 27–28 of this 1714 paper with pages in the 1722 *Harmonia mensurarum*.
 
 ### 1722 — *Harmonia mensurarum sive analysis et synthesis per rationum et angulorum mensuras promotae*
 
@@ -110,16 +111,24 @@ These are printed in the scholarly **Leibniz-Akademie-Ausgabe**, Series III, vol
 - **Especially important primary passage:** beginning of §1: Riemann announces investigations of “Transcendenten”; §§1–2 discuss analytic continuation, `log(z − a)`, its `2πi` increment on circling `a`, branching, sheets, and topology; §3 discusses determination of transcendental functions and Dirichlet's principle.
 - **Read for:** Riemann's own definitions/operations, not retroactively imposed accounts of “transcendental.”
 
+**Source-page comparison:** [Riemann's 1857 §1 and §3 audited against Bruce Director's “Dirichlet's Principle”](director-riemann-dirichlet-audit.md). It distinguishes the original integral and boundary/singularity conditions from the unqualified, mathematically invalid inference that a finite nonnegative functional must attain its infimum.
+
 ### 1866 — *Ueber das Verschwinden der Theta-Functionen*
 
 - **Original:** *Journal für die reine und angewandte Mathematik* 65 (1866), pp. 161–172.
-- **Full text, modern transcription:** [Wilkins PDF](https://www.emis.de/classics/Riemann/Theta.pdf) (**PDF filename should be checked against the Wilkins index before automated retrieval**).
+- **Full text, modern transcription:** [Wilkins PDF](https://www.emis.de/classics/Riemann/Theta.pdf).
 - **Read for:** theta functions and Abelian analysis.
 
 ### Lectured in 1854, published posthumously in 1868
 
 - *Ueber die Hypothesen, welche der Geometrie zu Grunde liegen* — [German full text](https://www.emis.de/classics/Riemann/Geom.pdf), [W. K. Clifford's 1873 English translation](https://www.emis.de/classics/Riemann/WKCGeom.pdf). Keep the lecture and publication years separate.
-- *Ueber die Darstellbarkeit einer Function durch eine trigonometrische Reihe* — [German full text](https://www.emis.de/classics/Riemann/Trig.pdf) (**verify filename before scripted download**).
+- *Ueber die Darstellbarkeit einer Function durch eine trigonometrische Reihe* — [German full text](https://www.emis.de/classics/Riemann/Trig.pdf).
+
+## Weierstrass and Schwarz: the Dirichlet principle existence problem
+
+- **Karl Weierstrass**, *Über das sogenannte Dirichlet'sche Princip*, communicated to the Berlin Academy **14 July 1870**, later printed in *Mathematische Werke* II (1895), pp. **49–54**. [Host with a full transcription and original-scan provenance](https://readthemasters.org/works/weierstrass-1895-dirichletsche-princip/). **Do not treat its AI-produced transcription as an independently verified original page.**
+- **Hermann Amandus Schwarz**, *Zur Integration der partiellen Differentialgleichung d²u/dx² + d²u/dy² = 0 unter vorgeschriebenen Grenz- und Unstetigkeitsbedingungen*, proceedings of the Berlin Academy (1870), pp. **767–795**. [Original-printed-pamphlet facsimile, e-rara](https://www.e-rara.ch/zut/content/titleinfo/29398928), [DOI 10.3931/e-rara-119446](https://doi.org/10.3931/e-rara-119446).
+- **Read for:** distinguish the stationary-point equation, nonnegative infimum, actual existence of an admissible minimizer and alternative existence arguments. [Comparison and explicit counterexample](director-riemann-dirichlet-audit.md).
 
 ## Emmy Noether (1882–1935)
 
