@@ -56,6 +56,14 @@ Create a dated glossary rather than a retrospective single definition:
 
 See [secondary histories](RECEPTION.md), particularly Blåsjö, Serfati, and Lützen, for checks against a presentist reading.
 
+## 7. Newton's discrepant measurements before Gauss
+
+- Start with [Buchwald's thesis and its source trail](newton-discrepant-measurements.md); distinguish his retrospective historical argument from Newton's own written calculations.
+- Identify a specific Newton optical or astronomical observation set, retain **every recorded input**, and independently reproduce the mean or other operation he actually used.
+- Compare a best-observation selection rule, an unweighted mean, and (only as a **modern comparison**) a least-squares calculation on exactly the same observations. Label any illustrative invented data as invented.
+- Check the historical priority claim against Tycho, Hooke, Hevelius, and other earlier practice; do not silently change “unusually systematic use of averaging” into “first person ever to average data.”
+- Relate the comparison to Gauss's *Theoria motus* (1809) and Legendre's published 1805 least-squares discussion, without assuming continuity of method or equating an arithmetic mean with orbit determination.
+
 ## Evidence record format
 
 For each comparison save:
