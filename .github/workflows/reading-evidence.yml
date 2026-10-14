@@ -1,0 +1,25 @@
+name: Reading evidence
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/reading-evidence.yml
+      - scripts/fetch-reading-evidence.py
+permissions:
+  contents: read
+jobs:
+  retrieve:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - name: Retrieve public sources and record failures separately
+        run: python3 scripts/fetch-reading-evidence.py reading-evidence
+      - name: Preserve source bytes and retrieval receipts
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: reading-evidence
+          path: reading-evidence/
+          retention-days: 14
+          if-no-files-found: error
