@@ -33,6 +33,13 @@ These are secondary histories; link them, but do not commit copyrighted modern b
 5. **Davide Crippa, *The Impossibility of Squaring the Circle in the 17th Century: A Debate Among Gregory, Huygens and Leibniz* (Birkhäuser, 2019).** [Publisher and chapter list](https://doi.org/10.1007/978-3-030-01638-8). A full-length book particularly close to Leibniz, algebraic constructibility, and transcendental functions. **Jesper Lützen reviewed this book in *Historia Mathematica* 52 (2020)** — another plausible source of the recalled Lützen connection.
 6. **Historical research article**, [*The Leibniz catenary and approximation of e — an analysis of his unpublished calculations*](https://doi.org/10.1016/j.hm.2019.06.001), *Historia Mathematica* (2019). Do not confuse unpublished manuscripts reconstructed by historians with the two actual 1691 journal papers.
 
+## Buchwald: Newton's discrepant measurements
+
+- **Jed Z. Buchwald**, “Discrepant Measurements and Experimental Knowledge in the Early Modern Era,” *Archive for History of Exact Sciences* 60 (2006), 565–649, [DOI](https://doi.org/10.1007/s00407-006-0116-6).
+- **Jed Z. Buchwald and Mordechai Feingold**, *Newton and the Origin of Civilization* (Princeton, 2013), especially “Troubled Numbers,” pp. 44–106, and appendix C, pp. 447–463. [Publisher chapter listing](https://academic.oup.com/princeton-scholarship-online/book/21215/chapter-abstract/180862816).
+- **Buchwald's stated thesis:** Newton combined discrepant observations by averaging instead of merely selecting one. See his [lecture abstract](https://nbarchive.ku.dk/nba_calendar/2020/buchwald/) and [NOVA interview](https://www.pbs.org/wgbh/nova/newton/buchwald.html). Treat “first” as Buchwald's attribution until the original observation tables and earlier comparators have been audited.
+- **Research note:** [Newton, discrepant measurements, and the comparison with Gauss](newton-discrepant-measurements.md). The Newton manuscript data are not yet transcribed here; don't turn an attractive historiographical claim into an unsourced primary fact.
+
 ## Citation and reading discipline
 
 For each claimed historical lineage (e.g. “Leibniz → Cotes → Gauss → Riemann”):
