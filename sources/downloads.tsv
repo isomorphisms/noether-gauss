@@ -1,0 +1,17 @@
+# tier<TAB>file name<TAB>direct PDF URL<TAB>edition type
+# core: initial reading corpus including the original 1691 Leibniz volume (~87 MB).
+# all: supplementary volumes; expect several hundred MB total.
+core	Leibniz-1691-Acta-Eruditorum-original-volume.pdf	https://archive.org/download/s1id13206570/s1id13206570.pdf	original-facsimile
+core	Cotes-1714-Logometria-original.pdf	https://archive.org/download/paper-doi-10_1098_rstl_1714_0002/paper-doi-10_1098_rstl_1714_0002.pdf	original-facsimile
+core	Gauss-1799-Demonstratio-nova-original.pdf	https://edoc.hu-berlin.de/bitstreams/3d7abac7-f14d-478c-b649-57ff28799668/download	original-facsimile
+core	Riemann-1857-Abel-original.pdf	https://www.e-rara.ch/zut/download/pdf/13599822	original-facsimile
+core	Riemann-1851-Grundlagen-Wilkins.pdf	https://www.emis.de/classics/Riemann/Grund.pdf	modern-transcription
+core	Riemann-1857-PFunct-Wilkins.pdf	https://www.emis.de/classics/Riemann/PFunct.pdf	modern-transcription
+core	Riemann-1857-Abel-Wilkins.pdf	https://www.emis.de/classics/Riemann/AbelFn.pdf	modern-transcription
+all	Leibniz-1684-Acta-Eruditorum-original-volume.pdf	https://archive.org/download/s1id13206500/s1id13206500.pdf	original-facsimile
+all	Leibniz-1686-Acta-Eruditorum-original-volume.pdf	https://archive.org/download/s1id13206520/s1id13206520.pdf	original-facsimile
+all	Cotes-1722-Harmonia-mensurarum-original.pdf	https://www.e-rara.ch/zut/download/pdf/1255698	original-facsimile
+all	Gauss-1809-Theoria-motus-original.pdf	https://www.e-rara.ch/zut/download/pdf/142787	original-facsimile
+all	Riemann-1854-Geometry-Wilkins.pdf	https://www.emis.de/classics/Riemann/Geom.pdf	modern-transcription
+all	Riemann-1854-Trigonometric-Series-Wilkins.pdf	https://www.emis.de/classics/Riemann/Trig.pdf	modern-transcription
+all	Riemann-1866-Theta-Wilkins.pdf	https://www.emis.de/classics/Riemann/Theta.pdf	modern-transcription
